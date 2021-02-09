@@ -1,0 +1,36 @@
+body {
+    background-color:gray;
+    text-align:center ;
+    font-size:22px;
+
+}
+
+h1{
+    
+    border:4px double grey;
+    background-color:beige;
+    border-radius:45px;
+    border-color: black;
+    padding: 20px;
+}
+h2{
+    display: inline;
+}
+div.shifting{
+    display: inline-block;
+}
+div.body{
+    border:6px double grey;
+    border-radius:35px;
+    border-color:black;
+    background-color:beige;
+    margin-bottom: 100px
+}
+
+div.decry{
+    padding-bottom: 20px;
+}
+button{
+    background-color: gray;
+    color:rgb(245, 245, 210);
+}

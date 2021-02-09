@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <title>Caesar Encryption</title>
+</head>
+<script src="encryption_v3.js"></script>
+
+<body>
+    <h1>Caesar Encryption</h1>
+    <div class="body">
+
+        <h2>Ciphertext:
+        ( <span id="enc">...</span> )
+        <br>
+        <div class="encry">
+            <textarea rows="10" cols="100" id="EncryptData" placeholder="Enter text"></textarea>
+        </div></h2>
+        <br>
+        <h2><label>Shift:
+            <div class ="shifting"><input type="number" id="shift" step="1" min="1" max="12" style="margin-top: 1.1mm;"></label></div>
+        <br>
+        <button onclick=clickedEncypt()>
+            ^ Encrypt ^
+        </button>
+        <button onclick=clickedDecrypt()>
+            v Decrypt v
+        </button></h2>
+        <br>
+        <h2>
+            Plaintext:
+            (<span id="dec">...</span>)
+        <br>
+        <div class="decry">
+            <textarea rows="10" cols="100" id="DecryptData" placeholder="Enter encrypted data"></textarea>
+        </div></h2>
+    </div>
+
+    <!--<div>
+            <span>
+                Encryption: 
+                ( <span id="encBoth" >...</span> )
+            </span>
+            <br>
+            <span>
+                Decryption: 
+                (<span id="decBoth">..</span>)
+            </span><br>
+                <input type="text" id="txtIn"
+                 placeholder="Enter data">
+                <button onclick=clicked()>
+                    Process
+                </button>
+        </div>-->
+</body>
+
+</html>
